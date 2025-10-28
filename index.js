@@ -14,7 +14,7 @@ app.use(express.json()); // To parse JSON bodies
 // 🟢 Test route (GET)
 
 
-const GEMINI_API_KEY = "AIzaSyDLjVhVKjXFlNdF4sHSo20jjua3anyve2c";
+const GEMINI_API_KEY = "";
 
 const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 app.get("/", async (req, res) => {
